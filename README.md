@@ -19,4 +19,6 @@ Editing the sorbet signature update the method's return type.
 Editing the docstring of the method with a Sorbet signature doesn't reload the description. Deleting the Sorbet
 signature solved the issue (and putting back again works as expected).
 
+Editing the docstring of the method without a Sorbet signature works as expected (reloading the page loads the new description).
+
 Editing the Sorbet signature works as expected, but doesn't refresh the description either.
